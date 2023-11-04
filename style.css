@@ -1,0 +1,98 @@
+.image{
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      margin-top: 10px;
+}
+.name{
+      margin-left: 100px;
+      margin-top: -50px;
+}
+.bio{
+      margin-left: 100px;
+      margin-top: -10px;
+}
+.grid{
+      
+      width: 300px;
+      display: grid;
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+      column-gap: 400px;
+      row-gap: 40px;
+      margin-left: 50px;
+      margin-top: 30px;
+}
+.button{
+      width: 450px;
+      height: 120px;
+}
+.hero{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      color:rgb(27, 27, 197);
+}
+.description{
+      display: flex;
+
+}
+.flex{
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      column-gap:-40px;
+      justify-content: space-between;
+      column-gap: 10px;
+}
+.bu{
+    
+      color: white;
+      background-color: blue;
+      padding: 6px;
+      display: flex;
+}
+.bu:hover{
+      opacity: 0.6;
+}
+.flexes{
+      display: flex;
+      flex-direction: row;
+      margin-top: 40px;
+      margin-left: 400px;
+      height: 30px;
+      width: 30px;
+}
+.b{
+      padding: 10px;
+     
+}
+.b:hover{
+      background-color:blue;
+      color: white;
+      opacity: 0.6;
+      border-width: 0px;
+}
+.older{
+      height: 40px;
+      width: 80px;
+      border-radius: 20px;
+      margin-left: 400px;
+      margin-top: 20px;
+      color: blue;
+      border-width: 0.5px;
+}
+.older:hover{
+      opacity: 0.6;
+}
+.newer{
+      height: 40px;
+      width: 80px;
+      border-radius: 20px;
+      margin-left: 250px;
+      margin-top: 20px;
+      color: blue;
+      border-width: 0.5px;
+}
+.newer:hover{
+      opacity: 0.6;
+}
